@@ -1,0 +1,92 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "hi",
+                "Hello",
+                "hello",
+                "Hey",
+                "Is anyone there?",
+                "Good morning",
+                "Hola"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there, how can I help?",
+                "Greetings!",
+                "Good to see you!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "I am leaving",
+                "Have a Good Day"
+            ],
+            "responses": [
+                "Sad to see you go!",
+                "Talk to you later.",
+                "Goodbye!"
+            ]
+        },
+        {
+            "tag": "grateful",
+            "patterns": [
+                "I appreciate it",
+                "Thanks a lot",
+                "Thank you very much",
+                "You are awesome"
+            ],
+            "responses": [
+                "Glad I could help!",
+                "You're welcome!",
+                "No problem at all."
+            ]
+        },
+        {
+            "tag": "capabilities",
+            "patterns": [
+                "What forms of help do you offer?",
+                "What tasks can you perform?",
+                "How can you assist me?",
+                "What are your skills?"
+            ],
+            "responses": [
+                "I can chat with you and provide information.",
+                "I am designed to answer your questions.",
+                "I am here to help you with whatever I can."
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "May I know your name?",
+                "What should I call you?",
+                "Do you have a nickname?"
+            ],
+            "responses": [
+                "I am Mamitha Baiju.",
+                "Call me Mamitha!",
+                "I go by Mamitha Baiju."
+            ]
+        },
+        {
+            "tag": "developer",
+            "patterns": [
+                "Who is your maker?",
+                "Who coded you?",
+                "Which developer built you?"
+            ],
+            "responses": [
+                "I was developed by Vaibhav.",
+                "Vaibhav created me using Python.",
+                "Credit goes to Vaibhav for building me."
+            ]
+        }
+    ]
+}
