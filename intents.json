@@ -57,9 +57,9 @@
                 "What are your skills?"
             ],
             "responses": [
-                "I can chat with you and provide information.",
-                "I am designed to answer your questions.",
-                "I am here to help you with whatever I can."
+                "I can chat with you and provide information about cricket!",
+                "I am designed to answer your cricket-related questions.",
+                "I am here to help you with cricket knowledge and trivia."
             ]
         },
         {
@@ -86,6 +86,1281 @@
                 "I was developed by Vaibhav.",
                 "Vaibhav created me using Python.",
                 "Credit goes to Vaibhav for building me."
+            ]
+        },
+        {
+            "tag": "cricket_basics",
+            "patterns": [
+                "What is cricket?",
+                "Explain cricket to me",
+                "Tell me about cricket",
+                "How is cricket played?",
+                "What are the basic rules of cricket?",
+                "Cricket rules"
+            ],
+            "responses": [
+                "Cricket is a bat-and-ball sport played between two teams of 11 players each. The batting team tries to score runs while the bowling team tries to dismiss them and limit runs.",
+                "Cricket is one of the most popular sports in the world! Two teams of 11 players each take turns batting and bowling. The team with the most runs wins!",
+                "In cricket, one team bats to score runs while the other bowls and fields. The batting team has to protect their wickets while scoring runs. When 10 batters are out, the innings ends."
+            ]
+        },
+        {
+            "tag": "cricket_formats",
+            "patterns": [
+                "What are the formats of cricket?",
+                "Different types of cricket",
+                "Tell me about Test cricket",
+                "What is ODI?",
+                "What is T20?",
+                "Explain cricket formats",
+                "Test vs ODI vs T20"
+            ],
+            "responses": [
+                "Cricket has three main formats: Test cricket (5 days, unlimited overs), ODI - One Day International (50 overs per side), and T20 (20 overs per side). Each format has its own excitement!",
+                "The three main formats are: 1) Test Match - the longest format played over 5 days, 2) ODI - 50 overs per team, and 3) T20 - the shortest format with 20 overs per team.",
+                "Cricket formats include Test matches (traditional 5-day games), ODIs (50-over matches), and T20s (exciting 20-over games). There's also The Hundred with 100 balls per innings!"
+            ]
+        },
+        {
+            "tag": "sachin_tendulkar",
+            "patterns": [
+                "Tell me about Sachin Tendulkar",
+                "Who is Sachin Tendulkar?",
+                "Sachin records",
+                "Master Blaster",
+                "God of Cricket",
+                "Sachin stats",
+                "Little Master"
+            ],
+            "responses": [
+                "Sachin Tendulkar is known as the 'God of Cricket'! He scored 100 international centuries, 15,921 Test runs, and 18,426 ODI runs - all world records. He played for India from 1989 to 2013.",
+                "Sachin Tendulkar, the 'Master Blaster', is arguably the greatest batsman ever. He holds records for most international runs (34,357) and most centuries (100). He received India's highest civilian honor, Bharat Ratna.",
+                "The legendary Sachin Tendulkar played 200 Test matches and 463 ODIs for India. His 100 international centuries is a record that may never be broken!"
+            ]
+        },
+        {
+            "tag": "virat_kohli",
+            "patterns": [
+                "Tell me about Virat Kohli",
+                "Who is Virat Kohli?",
+                "Kohli records",
+                "King Kohli",
+                "Virat stats",
+                "Kohli centuries"
+            ],
+            "responses": [
+                "Virat Kohli is one of the greatest batsmen of the modern era. He has scored over 80 international centuries and is known for his aggressive batting style and exceptional fitness.",
+                "Virat Kohli, known as 'King Kohli' or 'Chasemaster', is famous for his run-chasing abilities. He captained India and has been ranked No. 1 batsman multiple times.",
+                "Kohli is a run-machine! He holds the record for fastest to 8,000, 9,000, 10,000, 11,000, and 12,000 ODI runs. His average in successful run chases is exceptional."
+            ]
+        },
+        {
+            "tag": "ms_dhoni",
+            "patterns": [
+                "Tell me about MS Dhoni",
+                "Who is MS Dhoni?",
+                "Captain Cool",
+                "Dhoni records",
+                "Dhoni wicketkeeping",
+                "Thala Dhoni"
+            ],
+            "responses": [
+                "MS Dhoni is India's most successful captain! He won the 2007 T20 World Cup, 2011 ODI World Cup, and 2013 Champions Trophy. Known as 'Captain Cool' for his calm demeanor.",
+                "Mahendra Singh Dhoni is a legendary wicketkeeper-batsman. Famous for his helicopter shot and finishing abilities, he led CSK to 5 IPL titles and India to all ICC trophies.",
+                "Dhoni, called 'Thala' by fans, holds the record for most dismissals by an Indian wicketkeeper. His last-ball six in the 2011 World Cup final is one of cricket's most iconic moments!"
+            ]
+        },
+        {
+            "tag": "ipl",
+            "patterns": [
+                "What is IPL?",
+                "Tell me about IPL",
+                "Indian Premier League",
+                "IPL teams",
+                "IPL history",
+                "Who has won the most IPL titles?",
+                "IPL winners"
+            ],
+            "responses": [
+                "IPL (Indian Premier League) is the world's richest cricket league, started in 2008. It features 10 teams, the best players globally, and runs for about 2 months every year.",
+                "The IPL is a T20 franchise league. Mumbai Indians and Chennai Super Kings have won the most titles (5 each). Current teams include MI, CSK, RCB, KKR, DC, SRH, PBKS, RR, GT, and LSG.",
+                "IPL revolutionized cricket! Teams like Mumbai Indians (5 titles), Chennai Super Kings (5 titles), and Kolkata Knight Riders (3 titles) have been the most successful."
+            ]
+        },
+        {
+            "tag": "world_cup",
+            "patterns": [
+                "Cricket World Cup",
+                "Who has won the most World Cups?",
+                "Tell me about World Cup history",
+                "ODI World Cup winners",
+                "When did India win World Cup?",
+                "World Cup records"
+            ],
+            "responses": [
+                "The Cricket World Cup started in 1975. Australia has won it the most times (6). India won in 1983 (Kapil Dev) and 2011 (MS Dhoni). England won their first in 2019.",
+                "World Cup winners: West Indies (1975, 1979), India (1983, 2011, 2023), Australia (1987, 1999, 2003, 2007, 2015, 2023), Pakistan (1992), Sri Lanka (1996), England (2019).",
+                "India's World Cup victories: 1983 under Kapil Dev was a historic upset, 2011 under Dhoni ended a 28-year wait, and 2023 has been anticipated for another title!"
+            ]
+        },
+        {
+            "tag": "cricket_terms",
+            "patterns": [
+                "What is a yorker?",
+                "What is LBW?",
+                "Explain googly",
+                "What is a bouncer?",
+                "What is century?",
+                "Cricket terms",
+                "What is hat-trick in cricket?"
+            ],
+            "responses": [
+                "Key cricket terms: Yorker (ball at batsman's feet), LBW (Leg Before Wicket - out if ball would hit stumps), Googly (leg-spinner's delivery that spins opposite), Century (100 runs by a batsman).",
+                "Cricket terminology: Bouncer (short ball aimed at head), Hat-trick (3 wickets in 3 consecutive balls), Duck (out for 0 runs), Six (ball over boundary without bouncing).",
+                "Important terms: Maiden over (no runs scored), No-ball (illegal delivery), Wide (ball too far from batsman), Powerplay (fielding restrictions in limited overs)."
+            ]
+        },
+        {
+            "tag": "best_batsmen",
+            "patterns": [
+                "Who is the best batsman?",
+                "Greatest batsmen of all time",
+                "Best cricketers",
+                "Top batsmen in the world",
+                "Famous batsmen"
+            ],
+            "responses": [
+                "Greatest batsmen include: Sachin Tendulkar, Sir Don Bradman (99.94 Test average!), Virat Kohli, Brian Lara, Ricky Ponting, and Kane Williamson.",
+                "Legendary batsmen: Don Bradman had an incredible 99.94 average in Tests. Sachin Tendulkar scored the most international runs. Virat Kohli dominates the modern era.",
+                "Top batsmen ever: Bradman (unmatched average), Tendulkar (most runs and centuries), Lara (400* in Tests), Kohli (chase master), Steve Smith (modern Test great)."
+            ]
+        },
+        {
+            "tag": "best_bowlers",
+            "patterns": [
+                "Who is the best bowler?",
+                "Greatest bowlers of all time",
+                "Top bowlers in the world",
+                "Famous bowlers",
+                "Best fast bowlers",
+                "Best spin bowlers"
+            ],
+            "responses": [
+                "Greatest bowlers: Muttiah Muralitharan (800 Test wickets), Shane Warne (708 Test wickets), James Anderson, Dale Steyn, Wasim Akram, and Jasprit Bumrah in the current era.",
+                "Legendary bowlers include: Murali and Warne (spin kings), McGrath and Anderson (pace accuracy), Akram and Akhtar (fast bowling greats), and Bumrah (modern yorker king).",
+                "Top bowlers: Muralitharan leads with 800 Test wickets. Shane Warne had 708. Among current bowlers, James Anderson, Jasprit Bumrah, and Pat Cummins are exceptional."
+            ]
+        },
+        {
+            "tag": "cricket_records",
+            "patterns": [
+                "Cricket records",
+                "Highest score in cricket",
+                "Most runs in cricket",
+                "Most wickets in cricket",
+                "Fastest century",
+                "Cricket world records"
+            ],
+            "responses": [
+                "Amazing cricket records: Highest Test score - Brian Lara (400*), Most Test runs - Sachin (15,921), Most Test wickets - Murali (800), Fastest ODI century - AB de Villiers (31 balls)!",
+                "Key records: Sachin has most international runs (34,357) and centuries (100). Murali has most international wickets (1,347). Brian Lara hit 400 not out in Tests!",
+                "Records: Fastest T20I fifty - Yuvraj Singh (12 balls), Highest ODI score - Rohit Sharma (264), Most sixes in international cricket - Chris Gayle, Most catches - Mahela Jayawardene."
+            ]
+        },
+        {
+            "tag": "rohit_sharma",
+            "patterns": [
+                "Tell me about Rohit Sharma",
+                "Who is Rohit Sharma?",
+                "Hitman Rohit",
+                "Rohit records",
+                "Rohit double centuries"
+            ],
+            "responses": [
+                "Rohit Sharma, called 'Hitman', is the only player with 3 ODI double centuries (209, 208*, 264). He's the current India captain and one of the best openers in cricket history.",
+                "Rohit Sharma holds the record for highest individual ODI score (264 vs Sri Lanka). He's won 5 IPL titles as Mumbai Indians captain and is known for his elegant pull shots.",
+                "The 'Hitman' Rohit Sharma has scored more ODI double hundreds than anyone else (3). He's also hit the most sixes in World Cup history and leads India across formats."
+            ]
+        },
+        {
+            "tag": "jasprit_bumrah",
+            "patterns": [
+                "Tell me about Jasprit Bumrah",
+                "Who is Jasprit Bumrah?",
+                "Bumrah bowling",
+                "Bumrah yorker",
+                "Best Indian fast bowler"
+            ],
+            "responses": [
+                "Jasprit Bumrah is one of the best fast bowlers in the world! Known for his unorthodox action, lethal yorkers, and ability to bowl in all conditions. He's India's premier pacer.",
+                "Bumrah has a unique bowling action that makes him difficult to face. He's exceptional in all formats, taking wickets with his pace, swing, and those deadly toe-crushing yorkers!",
+                "Jasprit Bumrah is ranked among the top fast bowlers globally. His death bowling skills are unmatched, and he has been a match-winner for India in crucial games across formats."
+            ]
+        },
+        {
+            "tag": "cricket_stadiums",
+            "patterns": [
+                "Famous cricket stadiums",
+                "Biggest cricket ground",
+                "Lords cricket ground",
+                "MCG stadium",
+                "Cricket venues",
+                "Eden Gardens"
+            ],
+            "responses": [
+                "Famous cricket stadiums: Lord's (Home of Cricket, London), MCG (Melbourne, largest capacity 100,000+), Eden Gardens (Kolkata), Wankhede (Mumbai), and the Narendra Modi Stadium (Ahmedabad, world's largest).",
+                "The Narendra Modi Stadium in Ahmedabad is the world's largest cricket stadium with 132,000 capacity! Other iconic venues include Lord's, MCG, Sydney Cricket Ground, and The Oval.",
+                "Iconic grounds: Lord's is cricket's spiritual home, MCG hosts the Boxing Day Test, Eden Gardens is known for its electric atmosphere, and Chepauk (Chennai) is a spin paradise!"
+            ]
+        },
+        {
+            "tag": "ashes",
+            "patterns": [
+                "What is the Ashes?",
+                "Tell me about Ashes series",
+                "England vs Australia",
+                "Ashes history",
+                "Ashes urn"
+            ],
+            "responses": [
+                "The Ashes is a Test series between England and Australia, one of cricket's oldest and fiercest rivalries! It started in 1882 and the teams compete for a tiny urn containing the 'ashes' of cricket.",
+                "The Ashes is played alternately in England and Australia. The series features 5 Test matches and is named after a mock obituary stating English cricket had 'died' after an 1882 loss to Australia.",
+                "England and Australia have contested the Ashes since 1882. Australia generally dominates, but iconic series like 2005 (England's thrilling win) are legendary in cricket history!"
+            ]
+        },
+        {
+            "tag": "dismiss_types",
+            "patterns": [
+                "How can a batsman get out?",
+                "Ways to get out in cricket",
+                "Types of dismissals",
+                "What is caught out?",
+                "What is stumped?"
+            ],
+            "responses": [
+                "A batsman can be dismissed in 10 ways: Bowled, Caught, LBW, Run out, Stumped, Hit wicket, Handled the ball, Obstructing the field, Hit the ball twice, and Timed out.",
+                "Common dismissals: Bowled (ball hits stumps), Caught (fielder catches the ball), LBW (ball would hit stumps), Run out (fielder breaks stumps while running), Stumped (keeper removes bails when batsman is out of crease).",
+                "Types of dismissals include Bowled, Caught, LBW, Run out, and Stumped. Rare ones are Hit wicket (batsman hits own stumps), Handled the ball, and Obstructing the field."
+            ]
+        },
+        {
+            "tag": "drs",
+            "patterns": [
+                "What is DRS?",
+                "Decision Review System",
+                "Umpire review",
+                "Third umpire",
+                "Ball tracking"
+            ],
+            "responses": [
+                "DRS (Decision Review System) allows teams to challenge umpire decisions using technology like ball-tracking, UltraEdge (for edges), and HotSpot. Each team typically gets 2 reviews per innings.",
+                "The Decision Review System uses cameras and ball-tracking to review umpire decisions. If the original decision is overturned, the team keeps their review; if not, they lose it.",
+                "DRS technology includes: Ball tracking (shows ball path for LBW), UltraEdge (detects faint edges using sound waves), and multiple camera angles. It's made cricket decisions more accurate!"
+            ]
+        },
+        {
+            "tag": "women_cricket",
+            "patterns": [
+                "Women's cricket",
+                "Tell me about women cricket",
+                "Best women cricketers",
+                "Women World Cup",
+                "Smriti Mandhana",
+                "Mithali Raj"
+            ],
+            "responses": [
+                "Women's cricket is growing rapidly! Stars like Smriti Mandhana, Mithali Raj, Ellyse Perry, and Meg Lanning have elevated the game. The Women's World Cup and T20 leagues are gaining huge popularity.",
+                "Legendary women cricketers: Mithali Raj (India's highest run-scorer), Jhulan Goswami (most ODI wickets), Ellyse Perry (Australia's all-rounder), and current stars like Smriti Mandhana and Harmanpreet Kaur.",
+                "Women's cricket is on the rise! The Women's IPL (WPL) started in 2023, and players like Shafali Verma, Meg Lanning, and Heather Knight are inspiring millions worldwide."
+            ]
+        },
+        {
+            "tag": "cricket_equipment",
+            "patterns": [
+                "Cricket equipment",
+                "What equipment is used in cricket?",
+                "Cricket bat",
+                "Cricket ball",
+                "Cricket gear"
+            ],
+            "responses": [
+                "Cricket equipment includes: Bat (made of willow), Ball (leather, weighing 156-163g), Stumps and bails, Pads, Gloves, Helmet, and protective gear like thigh pads and arm guards.",
+                "Essential cricket gear: The bat is made from willow wood, the red ball is used in Tests while white is used in limited overs. Batsmen wear pads, gloves, and helmets for protection.",
+                "Cricket uses specialized equipment: Bats are traditionally made from English willow, balls are leather with cork inside. Players wear protective gear including helmets, pads, gloves, and boxes."
+            ]
+        },
+        {
+            "tag": "cricket_history",
+            "patterns": [
+                "History of cricket",
+                "When did cricket start?",
+                "Origin of cricket",
+                "How old is cricket?",
+                "Where was cricket invented?",
+                "Cricket origin story"
+            ],
+            "responses": [
+                "Cricket originated in England in the 16th century! It became an organized sport by the 17th century. The first international match was played between USA and Canada in 1844, and the first Test match was England vs Australia in 1877.",
+                "Cricket has a rich history dating back to Tudor England in the 1500s. The Marylebone Cricket Club (MCC) was founded in 1787 and became the custodian of cricket's Laws. The sport spread globally through the British Empire.",
+                "Cricket evolved from a children's game in southeast England to a global sport. First Test was in 1877, first ODI in 1971, and first T20I in 2005. The ICC (International Cricket Council) now governs the sport worldwide."
+            ]
+        },
+        {
+            "tag": "don_bradman",
+            "patterns": [
+                "Who is Don Bradman?",
+                "Tell me about Don Bradman",
+                "Bradman average",
+                "The Don",
+                "Greatest batsman ever",
+                "Bradman 99.94"
+            ],
+            "responses": [
+                "Sir Donald Bradman is considered the greatest batsman in cricket history! His Test average of 99.94 is almost double that of any other player. He needed just 4 runs in his final innings to average 100, but was bowled for a duck.",
+                "Don Bradman, 'The Don', played for Australia from 1928-1948. His batting average of 99.94 is a statistical anomaly - the next best average is around 60! He scored 29 Test centuries in just 52 matches.",
+                "Sir Donald Bradman's 99.94 Test average is the most remarkable statistic in sports. In the 1930 Ashes, he scored 974 runs in one series! He was knighted for his services to cricket."
+            ]
+        },
+        {
+            "tag": "viv_richards",
+            "patterns": [
+                "Who is Viv Richards?",
+                "Tell me about Viv Richards",
+                "Master Blaster West Indies",
+                "Vivian Richards",
+                "King Viv"
+            ],
+            "responses": [
+                "Sir Vivian Richards is one of cricket's greatest entertainers! The West Indian legend averaged 50.23 in Tests without ever wearing a helmet. He famously hit the fastest Test century (56 balls) at the time.",
+                "Viv Richards, 'Master Blaster' from Antigua, dominated bowling attacks in the 1970s-80s. He was known for his intimidating presence, swagger, and explosive hitting. He captained West Indies during their dominant era.",
+                "Sir Viv Richards scored over 8,500 Test runs with 24 centuries. He never wore a helmet, faced the fiercest fast bowlers, and rarely got hit. His confidence and skill made him a legend!"
+            ]
+        },
+        {
+            "tag": "kapil_dev",
+            "patterns": [
+                "Who is Kapil Dev?",
+                "Tell me about Kapil Dev",
+                "1983 World Cup captain",
+                "Kapil Dev catch",
+                "Haryana Hurricane"
+            ],
+            "responses": [
+                "Kapil Dev is India's greatest all-rounder and the captain who won the 1983 World Cup! His famous catch to dismiss Viv Richards in the final is iconic. He took 434 Test wickets, a world record at the time.",
+                "Kapil Dev, the 'Haryana Hurricane', led unfancied India to their first World Cup title in 1983. His 175 not out against Zimbabwe saved India from elimination. He's India's greatest pace bowling all-rounder.",
+                "Kapil Dev was a genuine fast bowler who could also bat brilliantly. He held the world record for most Test wickets (434) and scored over 5,000 Test runs. His 1983 World Cup triumph changed Indian cricket forever!"
+            ]
+        },
+        {
+            "tag": "imran_khan",
+            "patterns": [
+                "Who is Imran Khan cricketer?",
+                "Tell me about Imran Khan cricket",
+                "1992 World Cup captain",
+                "Pakistan World Cup",
+                "Imran Khan bowling"
+            ],
+            "responses": [
+                "Imran Khan was Pakistan's greatest all-rounder and captain! He led Pakistan to their only World Cup victory in 1992 with his famous 'Cornered Tigers' speech. He took 362 Test wickets and scored 3,807 runs.",
+                "Imran Khan was a complete cricketer - fast bowler, capable batsman, and inspirational leader. His reverse swing bowling revolutionized fast bowling. The 1992 World Cup triumph was his crowning achievement.",
+                "Imran Khan captained Pakistan to World Cup glory in 1992, retiring on top. He's one of the greatest all-rounders ever with 362 Test wickets. He later became Prime Minister of Pakistan!"
+            ]
+        },
+        {
+            "tag": "brian_lara",
+            "patterns": [
+                "Who is Brian Lara?",
+                "Tell me about Brian Lara",
+                "Lara 400",
+                "Prince of Trinidad",
+                "Brian Lara highest score"
+            ],
+            "responses": [
+                "Brian Lara holds the record for highest individual Test score - 400 not out against England in 2004! The West Indian left-hander also scored 375 (then a world record) and 501* in first-class cricket.",
+                "Brian Lara, the 'Prince of Trinidad', was one of the most elegant batsmen ever. He scored 11,953 Test runs with 34 centuries. His 400* and 375 are both against England in different years!",
+                "Brian Lara was a genius with the bat! He holds records for highest Test score (400*) and highest first-class score (501*). His ability to carry the West Indies team on his shoulders was legendary."
+            ]
+        },
+        {
+            "tag": "shane_warne",
+            "patterns": [
+                "Who is Shane Warne?",
+                "Tell me about Shane Warne",
+                "Ball of the century",
+                "Warnie",
+                "Best leg spinner"
+            ],
+            "responses": [
+                "Shane Warne is considered the greatest leg-spinner in cricket history! He took 708 Test wickets and delivered the famous 'Ball of the Century' - his first ball in Ashes cricket that bowled Mike Gatting with incredible spin.",
+                "Shane Warne revolutionized leg-spin bowling. The Australian legend's 708 Test wickets came with variations like the flipper, slider, and zooter. The 1993 'Ball of the Century' to dismiss Gatting became cricket's most famous delivery.",
+                "Warnie was a magician with the ball! His leg-breaks, googlies, and flippers mesmerized batsmen. He took 708 Test wickets and was a true entertainer who brought spin bowling back into fashion."
+            ]
+        },
+        {
+            "tag": "wasim_akram",
+            "patterns": [
+                "Who is Wasim Akram?",
+                "Tell me about Wasim Akram",
+                "Sultan of Swing",
+                "Best left arm fast bowler",
+                "Reverse swing king"
+            ],
+            "responses": [
+                "Wasim Akram, the 'Sultan of Swing', is the greatest left-arm fast bowler ever! He took 414 Test and 502 ODI wickets. His mastery of conventional and reverse swing made him deadly.",
+                "Wasim Akram perfected reverse swing bowling alongside Waqar Younis. The Pakistani legend took 916 international wickets and was devastating in World Cups. His 1992 final spell won Pakistan the trophy!",
+                "Wasim Akram could swing the ball both ways at pace. He's the leading Test wicket-taker among left-arm pacers (414 wickets). His ability to produce unplayable deliveries made him a nightmare for batsmen."
+            ]
+        },
+        {
+            "tag": "ricky_ponting",
+            "patterns": [
+                "Who is Ricky Ponting?",
+                "Tell me about Ricky Ponting",
+                "Punter",
+                "Australian captain Ponting",
+                "Ponting records"
+            ],
+            "responses": [
+                "Ricky Ponting, called 'Punter', is one of the greatest batsmen and most successful captains ever! He won 2 World Cups as captain (2003, 2007) and scored 13,378 Test runs with 41 centuries.",
+                "Ricky Ponting was a run-scoring machine for Australia. He's the second-highest run scorer in Tests behind Sachin and played 168 Tests. His pull shot was one of the most fearsome in cricket.",
+                "Ponting captained Australia in 77 Test wins - more than any other captain. He scored over 27,000 international runs and is considered one of the best fielders in cricket history, especially at point."
+            ]
+        },
+        {
+            "tag": "jacques_kallis",
+            "patterns": [
+                "Who is Jacques Kallis?",
+                "Tell me about Jacques Kallis",
+                "Best all-rounder ever",
+                "Kallis South Africa",
+                "Kallis records"
+            ],
+            "responses": [
+                "Jacques Kallis is statistically the greatest all-rounder in cricket history! The South African giant scored 13,289 Test runs and took 292 wickets. He averaged 55 with the bat and 32 with the ball!",
+                "Kallis was the complete cricketer - world-class batsman, quality seam bowler, and excellent slip fielder. He played 166 Tests, taking 292 wickets and scoring nearly 25,000 international runs.",
+                "Jacques Kallis's numbers are extraordinary: 45 Test centuries, 292 Test wickets, and 200 catches! He carried South Africa's batting for over 15 years and was incredibly consistent."
+            ]
+        },
+        {
+            "tag": "muttiah_muralitharan",
+            "patterns": [
+                "Who is Muralitharan?",
+                "Tell me about Murali",
+                "800 Test wickets",
+                "Most wickets in cricket",
+                "Murali doosra"
+            ],
+            "responses": [
+                "Muttiah Muralitharan holds the record for most Test wickets - 800! The Sri Lankan off-spinner also has 534 ODI wickets. His 'doosra' (ball that turns away from right-handers) was revolutionary.",
+                "Murali was a wicket-taking machine! He reached 800 Test wickets in his final Test. Despite questions about his action, he was cleared by the ICC and dominated batsmen with his incredible spin.",
+                "Muralitharan's 800 Test wickets may never be broken. He took 10+ wickets in a match 22 times! His partnership with Sri Lanka proved deadly in subcontinent conditions."
+            ]
+        },
+        {
+            "tag": "glenn_mcgrath",
+            "patterns": [
+                "Who is Glenn McGrath?",
+                "Tell me about Glenn McGrath",
+                "Pigeon",
+                "Best Australian fast bowler",
+                "McGrath line and length"
+            ],
+            "responses": [
+                "Glenn McGrath, nicknamed 'Pigeon', was the ultimate fast bowling machine! He took 563 Test wickets with incredible accuracy. His line and length were so consistent, batsmen couldn't score off him.",
+                "McGrath was Australia's greatest fast bowler. He took 71 World Cup wickets (record) and destroyed batting lineups with his nagging accuracy. He took 563 Test wickets at just 21.64 average!",
+                "Glenn McGrath's secret was relentless accuracy. He hit the same spot repeatedly, forcing batsmen into mistakes. He was Man of the Tournament in the 2007 World Cup and part of Australian dominance."
+            ]
+        },
+        {
+            "tag": "1983_world_cup",
+            "patterns": [
+                "1983 World Cup",
+                "India 1983 World Cup",
+                "Kapil Dev World Cup",
+                "India first World Cup win",
+                "1983 final"
+            ],
+            "responses": [
+                "India's 1983 World Cup win is cricket's greatest upset! Nobody expected India to beat the mighty West Indies, who had won the previous two World Cups. Kapil Dev's team won by 43 runs in the final!",
+                "The 1983 World Cup final saw India defend just 183 against West Indies. Kapil Dev's famous catch to dismiss Viv Richards turned the match. Mohinder Amarnath was Man of the Match.",
+                "India's 1983 triumph changed cricket forever! Key moments: Kapil's 175* vs Zimbabwe (not televised!), the final where India defended 183, and Kapil's catch. It sparked cricket's popularity in India."
+            ]
+        },
+        {
+            "tag": "2011_world_cup_final",
+            "patterns": [
+                "2011 World Cup final",
+                "Dhoni World Cup six",
+                "India 2011 World Cup",
+                "Wankhede World Cup final",
+                "India vs Sri Lanka 2011 final"
+            ],
+            "responses": [
+                "The 2011 World Cup final at Wankhede was magical! MS Dhoni promoted himself to No. 5 and finished the game with a massive six. India won by 6 wickets, ending a 28-year wait for the trophy!",
+                "Dhoni's six over long-on to win the 2011 World Cup is the most iconic moment in Indian cricket! Gautam Gambhir (97) and Dhoni (91*) guided India to victory against Sri Lanka in Mumbai.",
+                "India 2011: Sachin finally won a World Cup! Dhoni's finishing six, Gambhir's crucial 97, and 1 billion plus fans celebrating. It was Sachin's last World Cup and the team carried him on their shoulders."
+            ]
+        },
+        {
+            "tag": "tied_test_matches",
+            "patterns": [
+                "Tied Test matches",
+                "How many Test matches tied?",
+                "Test match tie",
+                "1960 tied Test",
+                "Cricket ties"
+            ],
+            "responses": [
+                "Only 2 Test matches in history have ended in a tie! Australia vs West Indies in Brisbane 1960, and India vs Australia in Chennai 1986. A tie is when both teams are all out with equal scores.",
+                "Tied Tests are incredibly rare - only 2 in 145+ years of Test cricket! The famous 1960 Brisbane tie between Australia and West Indies is considered the greatest Test ever played.",
+                "The 1960 Brisbane tied Test was extraordinary - the last ball drama with Joe Solomon's run-out created a tie. The 1986 Chennai tie between India and Australia is the only other one in history."
+            ]
+        },
+        {
+            "tag": "2019_world_cup_final",
+            "patterns": [
+                "2019 World Cup final",
+                "England World Cup 2019",
+                "Super over final",
+                "Most dramatic final",
+                "England vs New Zealand final"
+            ],
+            "responses": [
+                "The 2019 World Cup final is the greatest ODI ever! England vs New Zealand tied, then the Super Over tied too! England won on boundary count - a controversial but thrilling conclusion.",
+                "Ben Stokes' heroics, the overthrow controversy (6 runs instead of 5), and the Super Over tie - 2019 final had everything! England won their first World Cup on home soil.",
+                "The 2019 final saw New Zealand need 2 off 2 balls but Stokes survived. Super Over: Both teams scored 15! England won on boundary count. Many felt New Zealand deserved to win."
+            ]
+        },
+        {
+            "tag": "yuvraj_singh",
+            "patterns": [
+                "Who is Yuvraj Singh?",
+                "Tell me about Yuvraj Singh",
+                "6 sixes in an over",
+                "Yuvraj vs Stuart Broad",
+                "Yuvraj fastest fifty"
+            ],
+            "responses": [
+                "Yuvraj Singh hit 6 sixes in one over off Stuart Broad in the 2007 T20 World Cup! He also holds the record for fastest T20 fifty (12 balls). He was Player of the Tournament in 2011 World Cup.",
+                "Yuvraj Singh is an Indian cricket legend! His 6 sixes in an over vs Broad and 12-ball fifty are T20 records. He battled cancer and returned to play, showing incredible courage.",
+                "Yuvraj was India's match-winner in crucial games. The 2011 World Cup Player of the Tournament, he scored 362 runs and took 15 wickets. His six sixes in Durban 2007 is unforgettable!"
+            ]
+        },
+        {
+            "tag": "ab_de_villiers",
+            "patterns": [
+                "Who is AB de Villiers?",
+                "Tell me about AB de Villiers",
+                "Mr 360",
+                "Fastest ODI century",
+                "AB de Villiers records"
+            ],
+            "responses": [
+                "AB de Villiers, 'Mr. 360', could hit the ball anywhere! He holds the record for fastest ODI 50 (16 balls), 100 (31 balls), and 150 (64 balls). His 360-degree hitting was revolutionary.",
+                "AB de Villiers was a genius batsman who invented new shots. The South African could keep wickets, bowl, and was an athletic fielder. His 31-ball century vs West Indies is the fastest ever!",
+                "Mr. 360 AB de Villiers combined technique with innovation. He averaged 50+ in Tests and ODIs, retired early at his peak, and is considered one of the most complete batsmen ever."
+            ]
+        },
+        {
+            "tag": "bowling_types",
+            "patterns": [
+                "Types of bowling in cricket",
+                "Fast bowling vs spin",
+                "What are bowling variations?",
+                "Explain seam bowling",
+                "Swing bowling explained"
+            ],
+            "responses": [
+                "Bowling types: Fast (90+ mph), Medium pace, and Spin. Fast bowlers use pace, swing (movement in air), and seam (movement off pitch). Spinners use finger spin (off-spin) or wrist spin (leg-spin).",
+                "Bowling variations: Yorker (at feet), Bouncer (at head), Slower ball, Knuckleball, Cutter, Outswinger, Inswinger, Reverse swing. Spinners have googly, doosra, carom ball, and slider.",
+                "Seam bowling uses the seam to make the ball deviate off the pitch. Swing bowling moves the ball in air. Reverse swing happens with an old ball moving opposite to conventional swing."
+            ]
+        },
+        {
+            "tag": "fielding_positions",
+            "patterns": [
+                "Fielding positions in cricket",
+                "What is silly point?",
+                "Cricket field positions",
+                "Explain slip fielders",
+                "What is third man?"
+            ],
+            "responses": [
+                "Key fielding positions: Slips (behind batsman for catches), Gully, Point, Cover, Mid-off, Mid-on, Mid-wicket, Square leg, Fine leg, Third man. Close positions include Silly point and Short leg.",
+                "Slip positions catch edges. Silly point/Short leg are close-in positions for catches off defensive shots. Third man is behind square on off-side. Deep fielders like Long-on save boundaries.",
+                "Fielding positions are named by their location: Off-side (right of right-handed batsman) and Leg-side (left). 'Deep' means near boundary, 'Short' or 'Silly' means very close to batsman."
+            ]
+        },
+        {
+            "tag": "batting_shots",
+            "patterns": [
+                "Types of cricket shots",
+                "What is cover drive?",
+                "Cricket batting shots",
+                "Explain pull shot",
+                "What is reverse sweep?"
+            ],
+            "responses": [
+                "Classic batting shots: Cover drive (elegant through covers), Straight drive, Pull (horizontal bat to short ball), Cut (square on off-side), Sweep (on one knee to spin), and Hook (short ball hit behind).",
+                "Modern innovations: Reverse sweep (sweeping to off-side), Switch hit (changing stance mid-delivery), Scoop/Dilscoop (scooping over keeper), Paddle sweep, and Helicopter shot (MS Dhoni's signature).",
+                "Drives are played with straight bat: Cover drive, Straight drive, On drive, Off drive. Cross-bat shots include Pull, Hook, Cut, and Sweep. Each shot targets different areas of the field."
+            ]
+        },
+        {
+            "tag": "powerplay_rules",
+            "patterns": [
+                "What is powerplay?",
+                "Powerplay rules in cricket",
+                "Fielding restrictions ODI",
+                "T20 powerplay",
+                "When is powerplay?"
+            ],
+            "responses": [
+                "Powerplay is when fielding restrictions apply. In ODIs: First 10 overs only 2 fielders outside 30-yard circle. In T20s: First 6 overs with similar restrictions, allowing more aggressive batting.",
+                "ODI Powerplay: Overs 1-10 have mandatory 2 fielders outside circle. Overs 11-40 allow maximum 4 fielders outside. Overs 41-50 allow maximum 5 outside. T20 has a 6-over powerplay.",
+                "Powerplay creates exciting cricket! With fewer boundary fielders, batsmen can attack. Teams often try to maximize runs during powerplay overs when boundaries are easier to score."
+            ]
+        },
+        {
+            "tag": "lbw_rules",
+            "patterns": [
+                "LBW rules explained",
+                "What are LBW conditions?",
+                "How is LBW decided?",
+                "Leg before wicket rules",
+                "LBW in cricket detailed"
+            ],
+            "responses": [
+                "LBW conditions: Ball must pitch in line or outside off-stump, hit the pad in line with stumps, and be going on to hit the wickets. If batsman is playing a shot, ball must pitch in line.",
+                "LBW is NOT out if: Ball pitches outside leg stump, impact is outside off when playing a shot, or ball is going over/missing stumps. DRS helps decide close calls using ball tracking.",
+                "LBW is complex! Key factors: Where ball pitched, where it hit the pad, was batsman playing a shot, and would ball hit stumps. Umpires consider all these before raising finger."
+            ]
+        },
+        {
+            "tag": "no_ball_rules",
+            "patterns": [
+                "What is a no ball?",
+                "No ball rules",
+                "Types of no balls",
+                "Free hit in cricket",
+                "No ball penalty"
+            ],
+            "responses": [
+                "No-ball causes: Front foot crosses popping crease, ball bounces more than twice/rolls, above waist high full toss, more than 2 bouncers per over, or wrong fielding positions. One run + free hit penalty!",
+                "Free hit follows a no-ball in limited overs. Batsman can only be out by run out, handling the ball, or obstructing. They can't be bowled, caught, or LBW - great chance for runs!",
+                "No-ball varieties: Front foot no-ball (most common), height no-ball (above waist), back foot no-ball (behind return crease), and bouncer no-ball (exceeding limit per over)."
+            ]
+        },
+        {
+            "tag": "wide_ball_rules",
+            "patterns": [
+                "What is a wide ball?",
+                "Wide ball rules",
+                "Wide vs no ball",
+                "Wide in T20",
+                "When is a ball wide?"
+            ],
+            "responses": [
+                "A wide is called when the ball is too far from the batsman to play a normal stroke. One run penalty plus ball has to be re-bowled. In T20s, the wide line is stricter than in Tests.",
+                "Wide ball rules differ by format: In T20s and ODIs, balls just outside off stump can be wide. In Tests, much wider margin is given. A wide cannot result in a dismissal except stumping.",
+                "Wide signals: Umpire extends both arms horizontally. One run is added to the batting team's score. The delivery doesn't count in the over and must be bowled again."
+            ]
+        },
+        {
+            "tag": "run_out_rules",
+            "patterns": [
+                "What is a run out?",
+                "Run out rules",
+                "Mankading rule",
+                "Non-striker run out",
+                "Run out explained"
+            ],
+            "responses": [
+                "A run out occurs when the fielding team breaks the wicket while the batsman is outside the crease during a run. Either batsman can be run out. Direct hits or throws to keeper/bowler count.",
+                "Mankading (now called running out the non-striker) is when the bowler runs out the non-striker for leaving the crease before delivery. It's legal but was considered unsportsmanlike by some.",
+                "Run out decisions: The batsman must have some part of their body or bat grounded behind the crease when the wicket is broken. DRS and TV replays help with close calls."
+            ]
+        },
+        {
+            "tag": "duckworth_lewis",
+            "patterns": [
+                "What is DLS method?",
+                "Duckworth Lewis explained",
+                "Rain in cricket",
+                "DLS calculation",
+                "Target revision cricket"
+            ],
+            "responses": [
+                "The DLS (Duckworth-Lewis-Stern) method calculates revised targets when rain interrupts limited-overs matches. It considers overs remaining and wickets in hand to set fair targets.",
+                "DLS uses statistical data to determine what teams should score given resources. Resources = overs left x wickets remaining. If a team loses overs, the target is adjusted based on these calculations.",
+                "DLS replaced the old average run rate method which was unfair. It's complex but fairer - a team chasing with more wickets in hand gets a lower revised target than one with fewer wickets."
+            ]
+        },
+        {
+            "tag": "follow_on",
+            "patterns": [
+                "What is follow on?",
+                "Follow on rule",
+                "When can captain enforce follow on?",
+                "Follow on in Test cricket",
+                "Follow on lead required"
+            ],
+            "responses": [
+                "The follow-on can be enforced if the team batting first leads by: 200 runs in 5-day Tests, 150 runs in 3-4 day matches, 100 runs in 2-day matches, or 75 runs in 1-day games.",
+                "When a follow-on is enforced, the team batting second must bat again immediately. The captain of the leading team chooses whether to enforce it. It's used to push for victory.",
+                "Famous follow-on wins against teams enforcing it: India vs Australia 2001 (Kolkata), England vs Australia 1981 (Headingley). These are rare but dramatic comebacks!"
+            ]
+        },
+        {
+            "tag": "declaration_rules",
+            "patterns": [
+                "What is declaration in cricket?",
+                "When can captain declare?",
+                "Declaration in Test match",
+                "Why do teams declare?",
+                "Declaration rules"
+            ],
+            "responses": [
+                "Declaration allows the batting captain to end their innings voluntarily, typically to give enough time to bowl out the opposition. It's a strategic decision in Test cricket.",
+                "Teams declare when they have enough runs to win but need time to bowl out opponents. The captain weighs runs lead vs overs remaining. It's a tactical gamble for victory.",
+                "Declaration is only allowed in timed matches (Tests, multi-day games). In limited-overs cricket, innings end when overs are complete or 10 wickets fall. No declaration allowed."
+            ]
+        },
+        {
+            "tag": "supersub_impact_player",
+            "patterns": [
+                "What is impact player rule?",
+                "IPL impact player",
+                "Substitution in cricket",
+                "Impact player rule explained",
+                "Super sub cricket"
+            ],
+            "responses": [
+                "The Impact Player rule in IPL allows teams to substitute one player during the match. This creates tactical options - bring in a specialist batsman or bowler based on match situation.",
+                "Impact Player works like a tactical substitute. Teams name 4 potential impact players, and one can replace any player from the playing 11 at any point before end of innings they're in.",
+                "The rule essentially makes it 12 vs 12, allowing specialists to come in. Critics say it reduces all-rounders' value. Supporters love the tactical depth it adds to T20 cricket."
+            ]
+        },
+        {
+            "tag": "bowling_records",
+            "patterns": [
+                "Best bowling figures",
+                "Best bowling in an innings",
+                "10 wickets in an innings",
+                "Bowling milestones",
+                "Hat-trick records"
+            ],
+            "responses": [
+                "Best bowling in Tests: Jim Laker's 10/53 and 9/37 (19 wickets!) against Australia 1956. Best ODI: Chaminda Vaas 8/19 vs Zimbabwe. Best T20I: Multiple 6-wicket hauls.",
+                "Only Jim Laker and Anil Kumble (10/74 vs Pakistan) have taken all 10 wickets in a Test innings. Kumble did it in 1999 Delhi - one of cricket's greatest achievements!",
+                "Hat-trick kings: Wasim Akram took 4 hat-tricks in ODIs. Lasith Malinga had 3 ODI hat-tricks. Only one player (Irfan Pathan) has taken a Test hat-trick in the first over."
+            ]
+        },
+        {
+            "tag": "batting_records_detailed",
+            "patterns": [
+                "Most runs in an over",
+                "Fastest double century",
+                "Most sixes in an innings",
+                "Triple century records",
+                "Batting milestones"
+            ],
+            "responses": [
+                "Most runs in an over: 36 by Yuvraj Singh off Broad and Herschelle Gibbs off Van Bunge. Kieron Pollard also hit 6 sixes. In Tests, George Bailey scored 28 off one over.",
+                "Fastest double centuries: Chris Gayle (138 balls in ODI), Nathan Astle (153 balls in Tests). Triple centuries: Virender Sehwag, Brian Lara, and Chris Gayle have hit 300+ in Tests.",
+                "Most sixes in a Test innings: Wasim Akram hit 12 sixes. In ODIs: Rohit Sharma hit 16 sixes in his 264. In T20Is: Hazratullah Zazai hit 16 sixes against Ireland."
+            ]
+        },
+        {
+            "tag": "partnership_records",
+            "patterns": [
+                "Highest partnership in cricket",
+                "Best batting partnerships",
+                "Biggest partnerships ever",
+                "Opening partnership records",
+                "Partnership milestones"
+            ],
+            "responses": [
+                "Highest Test partnership: 624 runs by Kumar Sangakkara and Mahela Jayawardene for Sri Lanka vs South Africa in 2006. It's the longest stand in first-class cricket history!",
+                "Highest ODI partnership: 331 runs by Upul Tharanga and Sanath Jayasuriya for Sri Lanka. In T20Is: 229 by Hazratullah Zazai and Usman Ghani for Afghanistan.",
+                "Best opening partnerships: Tendulkar-Ganguly combined beautifully for India, Greenidge-Haynes dominated for West Indies, and modern era sees Warner-Finch for Australia."
+            ]
+        },
+        {
+            "tag": "west_indies_dominance",
+            "patterns": [
+                "West Indies cricket history",
+                "West Indies dominance 80s",
+                "Caribbean cricket legends",
+                "Windies fast bowlers",
+                "West Indies golden era"
+            ],
+            "responses": [
+                "West Indies dominated cricket from mid-1970s to early 1990s! They went 15 years unbeaten in Test series. Their fearsome fast bowling attack - Roberts, Holding, Marshall, Garner - terrified batsmen.",
+                "The West Indies legends: Viv Richards, Clive Lloyd (captain), Gordon Greenidge, Desmond Haynes. Fast bowlers: Malcolm Marshall, Michael Holding ('Whispering Death'), Joel Garner, Andy Roberts.",
+                "West Indies won the first two World Cups (1975, 1979) and were runners-up in 1983. Their pace attack was so dominant that other teams struggled to cope with the constant fast bowling assault."
+            ]
+        },
+        {
+            "tag": "australian_dominance",
+            "patterns": [
+                "Australian cricket dominance",
+                "Australia Steve Waugh era",
+                "Australia World Cup wins",
+                "Aussie legends",
+                "Australia golden era"
+            ],
+            "responses": [
+                "Australia dominated world cricket from 1999-2007, winning 3 consecutive World Cups! Steve Waugh and Ricky Ponting led this era with players like Warne, McGrath, Gilchrist, and Hayden.",
+                "Australian legends: Warne (708 wickets), McGrath (563 wickets), Ponting (13,378 runs), Hayden, Gilchrist, and Steve Waugh. They won 16 consecutive World Cup matches from 1999-2007!",
+                "Australia's secret was having world-class players in every position plus ruthless winning mentality. Gilchrist revolutionized keeping, Warne redefined spin, and their pace attack was relentless."
+            ]
+        },
+        {
+            "tag": "chris_gayle",
+            "patterns": [
+                "Who is Chris Gayle?",
+                "Tell me about Chris Gayle",
+                "Universe Boss",
+                "Chris Gayle sixes",
+                "Gayle records"
+            ],
+            "responses": [
+                "Chris Gayle, the 'Universe Boss', is the biggest six-hitter in cricket history! He has the most sixes in international cricket and T20 cricket combined. His 175* off 66 balls is the highest IPL score.",
+                "Gayle's T20 resume: First T20 century, first T20 double century, most sixes, most centuries. His 175* for RCB vs Pune Warriors in 2013 included 17 sixes and came off just 66 balls!",
+                "Chris Gayle scored a Test triple century (317 vs SA), ODI double century, and countless T20 records. The Jamaican left-hander's power hitting changed how T20 cricket is played."
+            ]
+        },
+        {
+            "tag": "kumar_sangakkara",
+            "patterns": [
+                "Who is Kumar Sangakkara?",
+                "Tell me about Sangakkara",
+                "Sangakkara records",
+                "Sri Lankan batting legend",
+                "Sangakkara World Cup"
+            ],
+            "responses": [
+                "Kumar Sangakkara scored 4 consecutive World Cup centuries in 2015 - a unique record! The Sri Lankan left-hander has 12,400 Test runs and 14,234 ODI runs, 2nd highest in ODIs at that time.",
+                "Sangakkara was an elegant batsman and brilliant wicketkeeper. His partnership with Mahela Jayawardene (624 runs) is the highest in Test cricket. He captained Sri Lanka with distinction.",
+                "Sangakkara holds the record for most centuries (4) in a single World Cup edition (2015). He's considered one of the greatest wicketkeeper-batsmen in cricket history alongside Adam Gilchrist."
+            ]
+        },
+        {
+            "tag": "test_championship",
+            "patterns": [
+                "What is World Test Championship?",
+                "WTC final",
+                "ICC Test Championship",
+                "Test Championship winners",
+                "WTC explained"
+            ],
+            "responses": [
+                "The World Test Championship (WTC) started in 2019 to add context to Test cricket. Teams earn points in bilateral series, and top 2 meet in the final. New Zealand won the first WTC in 2021.",
+                "WTC system: Teams play Test series over a 2-year cycle. Points are awarded for wins and draws. The top 2 teams on the points table play the final at a neutral venue.",
+                "WTC Winners: New Zealand (2021) beat India in Southampton. Australia beat India in 2023 final. It's given Test cricket a championship feel like World Cups in limited overs."
+            ]
+        },
+        {
+            "tag": "icc_rankings",
+            "patterns": [
+                "ICC rankings explained",
+                "How are cricket rankings calculated?",
+                "Number 1 cricket team",
+                "ICC player rankings",
+                "Test rankings"
+            ],
+            "responses": [
+                "ICC rankings use points based on recent match results. More recent matches count more. Rankings exist for Tests, ODIs, T20Is for teams, and for batters, bowlers, and all-rounders individually.",
+                "Rankings are calculated using weighted averages of points earned in matches. Matches in last 12-24 months count most. Winning away from home often earns more points against strong teams.",
+                "As rankings fluctuate, India, Australia, England, and Pakistan often contest top spots. Individual rankings feature stars like Kohli, Smith, Williamson, Labuschagne, and top bowlers."
+            ]
+        },
+        {
+            "tag": "boundary_rules",
+            "patterns": [
+                "What is a boundary?",
+                "Four vs six rules",
+                "Boundary rules cricket",
+                "How is a six scored?",
+                "Boundary size cricket"
+            ],
+            "responses": [
+                "A four is scored when the ball crosses the boundary after touching the ground. A six is when the ball goes over the boundary without bouncing. Boundaries are typically 65-90 yards from the pitch.",
+                "Boundary rules: If a fielder catches the ball but steps on/over the boundary, it's a six. Fielders can push the ball back from beyond the boundary as long as they jumped from inside.",
+                "There's no standard boundary size! Different grounds have different dimensions. The Narendra Modi Stadium has a very long boundary, while some English grounds have short ones."
+            ]
+        },
+        {
+            "tag": "toss_rules",
+            "patterns": [
+                "Toss in cricket",
+                "Who decides toss?",
+                "Bat first or bowl first",
+                "Toss importance",
+                "What happens at toss?"
+            ],
+            "responses": [
+                "The toss is done by both captains before play. A coin is flipped, and the winning captain chooses to bat or bowl first. In some conditions, toss can be crucial for advantage.",
+                "Toss factors: Pitch conditions (grass for bowling, dry for batting later), weather (overhead conditions help swing), dew factor (in day-night games), and team strengths.",
+                "Some tournaments have experimented with optional toss - away team can choose to bowl. But traditional toss remains in most cricket. Losing the toss on a bowler-friendly pitch can be disastrous!"
+            ]
+        },
+        {
+            "tag": "extras_in_cricket",
+            "patterns": [
+                "What are extras?",
+                "Types of extras",
+                "Bye and leg bye",
+                "Extras in cricket scorecard",
+                "Penalty runs"
+            ],
+            "responses": [
+                "Extras are runs not scored by the batsman: Wides, No-balls, Byes (missed by keeper and batsman), Leg-byes (off body), and Penalty runs (for violations). They add to team total.",
+                "Byes: Ball passes keeper without touching bat/body. Leg-byes: Ball hits batsman's body (not bat) and runs are taken. Both depend on batsman attempting a shot or trying to avoid.",
+                "Penalty runs (5 each) can be awarded for: Ball hitting protective helmet on field, fielder using equipment to stop ball, deliberate short runs, or changing condition of ball illegally."
+            ]
+        },
+        {
+            "tag": "new_ball_rules",
+            "patterns": [
+                "New ball in cricket",
+                "When is new ball taken?",
+                "Old ball vs new ball",
+                "Second new ball",
+                "Ball changing rules"
+            ],
+            "responses": [
+                "In Tests, teams can take a new ball after 80 overs. The new ball swings more and bounces higher. In ODIs, two new balls are used (one from each end) since 2012.",
+                "The ball changes character as it ages: New ball swings, becomes harder to control. Old ball reverses, spins more. Smart captains take the second new ball at strategic times.",
+                "In T20s, each innings uses one ball for all 20 overs. In ODIs, white balls from both ends get changed after 25 overs each. This was introduced to help visibility as ball gets dirty."
+            ]
+        },
+        {
+            "tag": "umpiring_signals",
+            "patterns": [
+                "Umpire signals",
+                "Cricket umpire hand signs",
+                "What are umpire signals?",
+                "Out signal",
+                "No ball signal"
+            ],
+            "responses": [
+                "Key umpire signals: Out (finger raised), Not out (hands crossed), Wide (arms stretched sideways), No-ball (arm stretched forward), Bye (raised arm), Leg-bye (touch knee with hand).",
+                "More signals: Six (both hands raised), Four (arm waved), Dead ball (both arms crossed), TV umpire referral (box shape), Short run (tap shoulder), Powerplay (circle arm over head).",
+                "Umpires use signals for scorers and viewers. The square leg umpire watches run-outs and stumpings. Third umpire is consulted via TV for close decisions."
+            ]
+        },
+        {
+            "tag": "super_over",
+            "patterns": [
+                "What is Super Over?",
+                "Super Over rules",
+                "Tie breaker cricket",
+                "How does Super Over work?",
+                "Super Over history"
+            ],
+            "responses": [
+                "Super Over is a tie-breaker when matches end level. Each team bats one over with three batsmen (out twice = done). Team with most runs wins. If still tied, it goes to more Super Overs.",
+                "Famous Super Overs: 2019 World Cup final (England won on boundaries), numerous IPL thrillers, and T20 World Cup matches. It creates dramatic finishes to already exciting games.",
+                "Super Over rules: Same batsman can't bat again if out. Any bowler can bowl (who hasn't completed their quota, or if all have, anyone). It's high-pressure cricket at its best!"
+            ]
+        },
+        {
+            "tag": "night_watchman",
+            "patterns": [
+                "What is night watchman?",
+                "Night watchman in cricket",
+                "Why use night watchman?",
+                "Night watchman strategy"
+            ],
+            "responses": [
+                "A night watchman is a lower-order batsman who bats higher to protect specialist batsmen when a wicket falls near end of day's play. The theory is to avoid losing two good batsmen in difficult light.",
+                "Night watchman strategy is debated. Some captains use it regularly, others never do. Famous night watchmen have scored big runs - Jason Gillespie once scored a double century as night watchman!",
+                "The night watchman faces tough conditions and fresh bowlers. If they survive till next day, the specialist batsman comes back in better conditions. It's a calculated risk by captains."
+            ]
+        },
+        {
+            "tag": "retired_hurt_out",
+            "patterns": [
+                "Retired hurt vs retired out",
+                "What is retired hurt?",
+                "Can batsman return after retiring?",
+                "Retired out rules",
+                "Injury in cricket"
+            ],
+            "responses": [
+                "Retired hurt: Batsman leaves due to injury and can return to bat later. Retired out: Batsman leaves voluntarily and cannot return. It's rare and considered unusual in professional cricket.",
+                "If retired hurt, batsman can come back after other batsmen are out or retired. The batting order can be changed. Medical attention breaks are now limited in time to prevent tactical misuse.",
+                "Famous retired hurt: Don Bradman retired hurt for 0 in his final innings, Brian Lara retired hurt and returned. Strategic retirements are controversial and against the spirit of cricket."
+            ]
+        },
+        {
+            "tag": "obstructing_field",
+            "patterns": [
+                "Obstructing the field",
+                "Rare dismissals",
+                "Unusual ways to get out",
+                "Handled the ball",
+                "Hit ball twice"
+            ],
+            "responses": [
+                "Rare dismissals: Obstructing the field (blocking fielder), Handled the ball (touching ball with hand), Hit ball twice (deliberately), Timed out (taking too long to arrive at crease).",
+                "Handled the ball incidents: Michael Vaughan (England), Steve Waugh (Australia) were dismissed this way. It's now merged with 'obstructing the field' in the laws.",
+                "Timed out: A new batsman has 2 minutes (was 3) to face the next ball. If not ready, they can be given out! No one has ever been dismissed this way in international cricket."
+            ]
+        },
+        {
+            "tag": "pink_ball_cricket",
+            "patterns": [
+                "Pink ball cricket",
+                "Day night Test",
+                "Pink ball vs red ball",
+                "When did pink ball start?",
+                "Pink ball conditions"
+            ],
+            "responses": [
+                "Pink ball is used in Day-Night Tests for visibility under floodlights. The first Day-Night Test was Australia vs New Zealand in 2015. Pink ball behaves differently - more swing, harder seam.",
+                "Pink ball has extra lacquer coating for durability. It swings more in twilight hours and can be harder to see. Some batsmen struggle adapting from red ball technique.",
+                "India played their first pink ball Test in 2019 against Bangladesh, winning easily. Day-Night Tests attract more crowds (evening sessions) but traditionalists prefer red ball Tests."
+            ]
+        },
+        {
+            "tag": "india_pakistan_rivalry",
+            "patterns": [
+                "India vs Pakistan rivalry",
+                "Indo-Pak cricket",
+                "Most watched cricket match",
+                "India Pakistan World Cup",
+                "Border-Gavaskar rivalry"
+            ],
+            "responses": [
+                "India vs Pakistan is cricket's biggest rivalry! Political tensions mean they only play in ICC events. World Cup matches between them are the most-watched cricket events globally.",
+                "India has a dominant record vs Pakistan in World Cups, never losing a World Cup match to them! Key moments: 2011 World Cup semi-final at Mohali, 2007 T20 WC final, and 2003 WC.",
+                "Indo-Pak matches are watched by over 1 billion people! The atmosphere, pressure, and national pride make every ball an event. Players become heroes or villains based on single performances."
+            ]
+        },
+        {
+            "tag": "rahul_dravid",
+            "patterns": [
+                "Who is Rahul Dravid?",
+                "Tell me about Rahul Dravid",
+                "The Wall",
+                "Dravid records",
+                "Mr. Dependable"
+            ],
+            "responses": [
+                "Rahul Dravid, 'The Wall', is one of cricket's greatest defenders! He faced 31,258 balls in Tests - more than anyone! Known for his solid technique and ability to bat for hours.",
+                "Dravid scored 13,288 Test runs with 36 centuries. Unlike flashy players, he was the dependable rock of Indian batting. He caught 210 catches in Tests - a world record for non-keepers!",
+                "Dravid captained India, coached the U-19 and senior teams to success, and is respected universally. His nickname 'The Wall' came from his impenetrable defense. He's currently India's head coach."
+            ]
+        },
+        {
+            "tag": "anil_kumble",
+            "patterns": [
+                "Who is Anil Kumble?",
+                "Tell me about Anil Kumble",
+                "Kumble 10 wickets",
+                "Indian spinner Kumble",
+                "Jumbo Kumble"
+            ],
+            "responses": [
+                "Anil Kumble took 10 wickets in an innings against Pakistan in 1999 - only the second person ever (after Jim Laker)! He's India's highest wicket-taker with 619 Test wickets.",
+                "Kumble bowled leg-spin but with pace and bounce, unlike classical leggies. He was accurate, persistent, and brave - once bowling with a broken jaw taped up! His 10/74 is legendary.",
+                "Kumble has 956 international wickets, making him one of the greatest spinners. He captained India, coached the team, and is now involved in cricket administration. A true legend!"
+            ]
+        },
+        {
+            "tag": "saurav_ganguly",
+            "patterns": [
+                "Who is Sourav Ganguly?",
+                "Tell me about Ganguly",
+                "Dada Ganguly",
+                "Prince of Kolkata",
+                "Ganguly Lords celebration"
+            ],
+            "responses": [
+                "Sourav Ganguly, 'Dada' (elder brother), revolutionized Indian cricket! He made India aggressive and competitive abroad. His shirtless celebration at Lord's in 2002 Natwest final is iconic!",
+                "Ganguly captained India during their transformation from pushovers to tough competitors. He backed young players like Sehwag, Harbhajan, Yuvraj, and Zaheer. Over 11,000 ODI runs with elegant off-side play.",
+                "The 'Prince of Kolkata' was known for his off-side play, especially the cover drive. He led India to 2003 World Cup final. Later became BCCI President. His Natwest trophy shirt-waving at Lord's became legendary!"
+            ]
+        },
+        {
+            "tag": "virender_sehwag",
+            "patterns": [
+                "Who is Virender Sehwag?",
+                "Tell me about Sehwag",
+                "Nawab of Najafgarh",
+                "Sehwag triple century",
+                "Sehwag attacking batting"
+            ],
+            "responses": [
+                "Virender Sehwag was the most aggressive opener in Test cricket! He hit 2 triple centuries (319 vs Pakistan, 309 vs South Africa) with his fearless approach. 'See ball, hit ball' was his philosophy.",
+                "Sehwag averaged under 50 but scored 23 Test centuries including 2 triple tons. His strike rate of 82 in Tests was unheard of! He didn't have conventional technique but attacked relentlessly.",
+                "The 'Nawab of Najafgarh' entertained fans with breathtaking shots. He once reached 200 with a six! Sehwag-Tendulkar and Sehwag-Gambhir were deadly opening partnerships for India."
+            ]
+        },
+        {
+            "tag": "dale_steyn",
+            "patterns": [
+                "Who is Dale Steyn?",
+                "Tell me about Dale Steyn",
+                "Best fast bowler Steyn",
+                "Steyn bowling speed",
+                "South Africa fast bowler"
+            ],
+            "responses": [
+                "Dale Steyn is considered one of the greatest fast bowlers ever! He took 439 Test wickets at 22.95 average. His pace, swing, and aggression made him unplayable on his day.",
+                "Steyn was No. 1 Test bowler for a record 263 weeks! He combined genuine pace (150+ kmph) with late swing - a rare combination. His spell at Nagpur 2010 (7/51 on flat pitch) is legendary.",
+                "The South African speedster was part of a great pace trio with Morkel and Philander. Injuries cut short his career, but at his peak, he was the most feared bowler in world cricket."
+            ]
+        },
+        {
+            "tag": "modern_allrounders",
+            "patterns": [
+                "Best modern all-rounders",
+                "Ben Stokes all-rounder",
+                "Hardik Pandya",
+                "All-rounders in cricket today",
+                "Ravindra Jadeja"
+            ],
+            "responses": [
+                "Modern all-rounders: Ben Stokes (England's heroic match-winner), Ravindra Jadeja (India's best fielder + accurate spin + handy batting), Shakib Al Hasan (Bangladesh legend), and Hardik Pandya.",
+                "Ben Stokes' Headingley 2019 (135*) is one of the greatest innings ever. He won the 2019 World Cup final too! His ability to bowl pace and bat in crisis makes him irreplaceable.",
+                "Ravindra Jadeja is a rare combination: world-class fielder, accurate left-arm spin, and capable of match-winning hundreds. He forms a crucial balance for India in all conditions."
+            ]
+        },
+        {
+            "tag": "babar_azam",
+            "patterns": [
+                "Who is Babar Azam?",
+                "Tell me about Babar Azam",
+                "Pakistan captain",
+                "Babar centuries",
+                "Modern greats Babar"
+            ],
+            "responses": [
+                "Babar Azam is Pakistan's modern great and captain. He's consistently ranked among the top batsmen across all formats. His elegant cover drives are reminiscent of the classic batsmen.",
+                "Babar has been No. 1 ODI and T20I batsman. He averages over 45 in all three formats - extremely rare! He's Pakistan's run-machine and carries the batting on his shoulders.",
+                "Babar Azam's technique is textbook perfect. He was ICC Men's ODI Cricketer of the Year and continues to break records. He's often compared to the 'Fab Four' alongside Kohli, Smith, and Root."
+            ]
+        },
+        {
+            "tag": "steve_smith",
+            "patterns": [
+                "Who is Steve Smith?",
+                "Tell me about Steve Smith",
+                "Smith unorthodox technique",
+                "Australian batting",
+                "Smith Ashes"
+            ],
+            "responses": [
+                "Steve Smith has an unusual technique but extraordinary results! He averages over 60 in Tests, second only to Bradman among modern batsmen. His Ashes 2019 (774 runs) was superhuman.",
+                "Smith's fidgeting at the crease and unorthodox leaves confuse bowlers. He started as a leg-spinner but became a batting genius. He was banned for ball-tampering but returned stronger.",
+                "Smith's concentration is legendary. He can bat for entire sessions without giving chances. His 2019 Ashes (774 runs at 110) included 3 centuries when Australia's batting struggled."
+            ]
+        },
+        {
+            "tag": "kane_williamson",
+            "patterns": [
+                "Who is Kane Williamson?",
+                "Tell me about Kane Williamson",
+                "New Zealand captain",
+                "Williamson batting",
+                "Fab Four"
+            ],
+            "responses": [
+                "Kane Williamson is the calmest batsman in world cricket! The New Zealand captain has textbook technique and temperament. He's part of the 'Fab Four' with Kohli, Smith, and Root.",
+                "Williamson led New Zealand to their first WTC title in 2021. His quiet leadership and consistent batting make him universally admired. He rarely gets flustered or loses composure.",
+                "Williamson averages 55+ in Tests with beautiful timing rather than power. He was IPL's best batsman for SRH multiple times. New Zealand cricket's golden era is largely due to his leadership."
+            ]
+        },
+        {
+            "tag": "australia_ball_tampering",
+            "patterns": [
+                "Sandpaper gate",
+                "Australia ball tampering scandal",
+                "Smith Bancroft incident",
+                "Cricket cheating scandal",
+                "Cape Town scandal"
+            ],
+            "responses": [
+                "In 2018, Australian players were caught on camera tampering with the ball using sandpaper against South Africa. Steve Smith (captain) and David Warner were banned for 1 year, Cameron Bancroft for 9 months.",
+                "The scandal shocked cricket. TV cameras caught Bancroft hiding sandpaper. It led to tears, resignations, and a cultural review of Australian cricket. Smith's tearful press conference was heartbreaking.",
+                "Australia's 'win at all costs' culture was criticized. The incident led to major changes in Cricket Australia's leadership and team culture. Matches on that tour weren't pleasant viewing."
+            ]
+        },
+        {
+            "tag": "cricket_injuries",
+            "patterns": [
+                "Worst injuries in cricket",
+                "Phillip Hughes accident",
+                "Cricket dangerous moments",
+                "Players hit by ball",
+                "Cricket safety"
+            ],
+            "responses": [
+                "The saddest cricket moment: Phillip Hughes died after being hit on the neck by a bouncer in 2014. It led to improved helmet designs and concussion protocols. Cricket mourned deeply.",
+                "Helmets became mandatory after the Hughes tragedy. Other scary incidents: Rory Burns hit by Bumrah, Voges hit on head, and many players stretchered off. Safety is now paramount.",
+                "Cricket equipment has evolved significantly. Modern helmets protect the temple and back of head. Concussion substitutes were introduced. The sport takes player safety more seriously than ever."
+            ]
+        },
+        {
+            "tag": "t20_leagues",
+            "patterns": [
+                "T20 leagues around world",
+                "Big Bash League",
+                "Caribbean Premier League",
+                "T20 franchise cricket",
+                "PSL cricket"
+            ],
+            "responses": [
+                "Major T20 leagues: IPL (India, richest), Big Bash (Australia), PSL (Pakistan), CPL (Caribbean), The Hundred (England), SA20 (South Africa), and BPL (Bangladesh). Each has unique character!",
+                "IPL is the richest and most competitive T20 league with highest player salaries. Big Bash is family-friendly, PSL promotes Pakistan cricket, and CPL showcases Caribbean flair.",
+                "T20 leagues have transformed cricket economics. Players earn millions, franchises are worth billions, and the schedule is packed year-round. It's changed how players approach their careers."
+            ]
+        },
+        {
+            "tag": "cricket_coach_legends",
+            "patterns": [
+                "Famous cricket coaches",
+                "John Wright India coach",
+                "Gary Kirsten coach",
+                "Best cricket coaches",
+                "Coaching in cricket"
+            ],
+            "responses": [
+                "Legendary coaches: John Wright (transformed India), Gary Kirsten (India 2011 WC), Duncan Fletcher (England), Mickey Arthur (multiple teams), and Ravi Shastri (India's recent success).",
+                "Gary Kirsten coached India to 2011 World Cup and South Africa to No. 1 ranking. His calm demeanor and trust in players made him exceptionally successful.",
+                "Modern coaching is highly technical with analysts, throwdown specialists, and psychologists. Rahul Dravid, Stephen Fleming, and Andy Flower represent the new generation of thinking coaches."
+            ]
+        },
+        {
+            "tag": "most_consecutive_wins",
+            "patterns": [
+                "Most consecutive wins in cricket",
+                "Unbeaten streaks",
+                "Team winning streaks",
+                "Longest winning run"
+            ],
+            "responses": [
+                "Australia won 16 consecutive World Cup matches (1999-2007)! They also had 16 consecutive Test wins (1999-2001). These records show their complete dominance in that era.",
+                "Longest unbeaten Test streak: West Indies went 26 Test series undefeated (1980-1995). India currently has an unbeaten home Test series streak dating back to 2012.",
+                "In T20Is, Afghanistan had 12 consecutive wins. In ODIs, Australia won 21 consecutive matches (2003). These streaks require sustained excellence across multiple years."
+            ]
+        },
+        {
+            "tag": "lowest_scores",
+            "patterns": [
+                "Lowest score in cricket",
+                "Lowest Test score",
+                "Teams all out for low scores",
+                "Worst batting collapse"
+            ],
+            "responses": [
+                "Lowest Test score: 26 by New Zealand vs England (1955). India was once all out for 36 against Australia in 2020 - their lowest ever! South Africa scored 35 against England in 1896.",
+                "Lowest ODI score: 35 by Zimbabwe vs Sri Lanka (2004). West Indies once scored just 35 against Sri Lanka too! These collapses often happen on tough pitches or against great bowling.",
+                "Famous collapses: Australia 60 all out (vs England 1968), India 36 all out (Adelaide 2020), South Africa 43 all out (vs England 2016). Even great teams have horror days!"
             ]
         }
     ]
